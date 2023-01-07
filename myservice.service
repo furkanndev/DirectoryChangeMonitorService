@@ -1,0 +1,11 @@
+[Unit]
+Description=My Service
+
+[Service]
+Type=simple
+ExecStart=/home/mrlinux/Desktop/BSM/script.sh
+
+
+[Install]
+WantedBy=multi-user.target
+
